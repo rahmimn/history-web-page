@@ -1,7 +1,7 @@
 ## history-web-page
 
-html css project
+## html css project
 
-##screen
+## screen
 
-![](art of war.gif)
+![] (art of war.gif)
