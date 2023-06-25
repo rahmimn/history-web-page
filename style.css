@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    color: #ffffff;
+    font-family: "open sans", sans-serif;
+}
+
+
+section {
+    min-height: 100vh;
+    background-color: #0a080a;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: o;
+    background-color: #0a080a;
+    z-index: 100;
+
+
+}
+
+header img {
+    width: 150px;
+
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: rgb(202, 197, 197);
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    transition: color 1s, text-shadow 1s;
+    text-shadow: 2px 2px 20px rgb(226, 214, 214);
+}
+
+header nav a:hover {
+    color: rgb(84, 80, 87);
+    text-shadow: 2px 2px 20px rgb(233, 221, 221);
+    transition: all 1s;
+
+}
+
+#welcome-sec {
+    background-image: url(images/main.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.welcome-text {
+    width: 90vw;
+
+
+
+}
+
+.welcome-text h1 {
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 2px 2px 30px #0a080a;
+    font-weight: 600px;
+
+}
+
+.welcome-text p {
+    margin: 90px auto;
+    text-align: center;
+    text-shadow: 2px 2px 30px #0a080a;
+    max-width: 700px;
+    font-weight: 600;
+
+}
+
+#sec-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    padding: 0 50px;
+
+}
+
+.left-side {
+    max-width: 600px;
+
+}
+
+
+
+.left-side h1 {
+
+    font-size: 70px;
+    line-height: 60px;
+    padding-bottom: 15px;
+    border-bottom: 4px solid white;
+
+}
+
+.left-side p {
+    margin-top: 30px;
+}
+
+.left-side p span {
+    border-bottom: 1px solid red;
+}
+
+.right-side {
+    max-width: 400px;
+    max-height: 400px;
+
+}
+
+.right-side img {
+    width: 400px;
+}
+
+#sec-2 {
+    background-image: radial-gradient(circle,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0.9) 50%),
+        url(images/sec-2.jpg);
+    background-position: center;
+    background-size: cover;
+
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h5 {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.heading h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.boxes {
+    width: 620px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.box {
+    width: 300px;
+    border: 1px solid gray;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+
+}
+
+
+.box:last-child {
+    width: 610px;
+}
+
+.box h2 {
+    color: rgb(230, 40, 40);
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.box p {
+    font-size: 18px;
+}
+
+#sec-3 {
+    background-image: url(images/sec-3.png);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-size: cover;
+    justify-content: space-around;
+
+}
+
+#sec-3 .left {
+    width: 450px;
+}
+
+#sec-3 .left h3 {
+    font-size: 24px;
+}
+
+#sec-3 .left h1 {
+    font-size: 80px;
+}
+
+#sec-3 .left p {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#sec-3 .left button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    background-color: red;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color .6s, color .6s;
+}
+
+#sec-3 .left button:hover {
+    background-color: black;
+    color: red;
+    transition: all .4s;
+
+}
+
+
+
+#sec-3 .right {
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: end;
+}
+
+.card {
+    width: 450px;
+    border-radius: 10px;
+    background-color: rgb(56, 56, 56);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card:nth-child(2) {
+    align-self: flex-start;
+}
+
+.person-info {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.info-detail h1 {
+    color: rgb(224, 59, 59);
+}
+
+small {
+    color: gray;
+}
+@media (max-width: 1500px) {
+    .right-side {
+        max-width: 500px;
+        max-height: 500px;
+    }
+}
+
+@media (max-width: 1100px) {
+    #sec-1 {
+        flex-direction: column;
+        gap: 0px;
+
+    }
+    .right-side {
+        max-width: 300px;
+        max-height: 300px;
+        margin-top: 40px;
+    }
+
+    #sec-3 {
+        flex-direction: column;
+    }
+
+    #sec-3 .right {
+        align-items: center;
+    }
+
+    .card:nth-child(2) {
+        align-self: center;
+    }
+}
